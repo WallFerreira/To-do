@@ -139,9 +139,9 @@ select {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 1rem;
     border-bottom: 1px solid #ddd;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .todo h3 {
@@ -155,6 +155,10 @@ select {
 
 .done {
     background-color: #918b76;
+}
+
+.done h3 {
+    color: #fff;
     text-decoration: line-through;
     font-style: italic;
-}
+  }
